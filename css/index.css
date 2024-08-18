@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px) {
+    .body{
+        color: green;
+    }
+}
+span{
+    color: green;
+}
