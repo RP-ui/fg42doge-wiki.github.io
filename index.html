@@ -19,29 +19,6 @@
             document.getElementById('clock').textContent = timeString;
         }
         setInterval(updateClock, 1);
-	<!--     
-		function updateTime() {
-				const now = new Date();
-				const timeString = now.toLocaleTimeString();
-				const dateString = now.toLocaleDateString();
-				document.getElementById('time').textContent = timeString;
-				document.getElementById('date').textContent = dateString;
-			}
-			setInterval(updateTime, 100);
-
-			function checkCookieConsent() {
-				if (!document.cookie.split('; ').find(row => row.startsWith('cookieConsent='))) {
-					document.getElementById('cookie-consent').style.display = 'block';
-				}
-			}
-
-			function acceptCookies() {
-				document.cookie = "cookieConsent=true; max-age=" + 60*60*24*365 + "; path=/";
-				document.getElementById('cookie-consent').style.display = 'none';
-			}
-
-			window.onload = checkCookieConsent;
-		-->
     </script>
 
     <script type="text/javascript">
