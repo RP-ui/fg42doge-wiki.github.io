@@ -1,8 +1,36 @@
-@media screen and (max-width: 500px) {
-    .body{
-        color: green;
-    }
+#head-inner{
+    text-align: center;
 }
-span{
-    color: green;
+#head-img{
+    position: relative;
+    top: -100px;
+    width: 50vw;
+}
+#head-title{
+    position: relative;
+    font-size: 50px;
+    top: 100px;
+    z-index: 9999;
+}
+nav{
+    font-size: 25px;
+    width: 100vw;
+    height: 50px;
+    background-color: lightgray;
+}
+nav button{
+    color: grey;
+    background-color: whitesmoke;
+    border: none;
+    border-right: solid;
+    border-color: grey;
+    height: 50px;
+    vertical-align: top;
+    float: left;
+}
+nav button a{
+    text-decoration: none;
+}
+nav button a:active{
+    color: blue;
 }
