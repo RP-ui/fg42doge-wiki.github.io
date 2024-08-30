@@ -14,7 +14,7 @@
 }
 nav{
     font-size: 25px;
-    width: 100vw;
+    width: 95vw;
     height: 50px;
     background-color: lightgray;
 }
@@ -33,4 +33,19 @@ nav button a{
 }
 nav button a:active{
     color: blue;
+}
+#page-information-inner{
+    position: relative;
+    left: 25vw;
+    width: 50vw;
+    min-height: 30vh;
+    color: darkblue;
+}
+#page-information-inner span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+#page-information-inner img{
+    width: 20px;
 }
