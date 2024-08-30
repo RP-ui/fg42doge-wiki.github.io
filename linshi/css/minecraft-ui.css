@@ -1,0 +1,6 @@
+.state-button{
+    width: 30px;
+    background-color: grey;
+    border: solid;
+    border-left: 10px solid;
+}
