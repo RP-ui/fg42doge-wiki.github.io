@@ -1,1 +1,1 @@
-# alamb.github.io
+# 这离世FG42doge wiki
